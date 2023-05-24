@@ -11,9 +11,6 @@ This tool is designed to provide visual insights into firearm discharge incident
 4.	Heatmap Layer: The tool includes a heatmap layer on the map, representing the concentration of firearm discharges across the city. This feature provides a quick visual way to identify areas with higher incidents of firearm discharges.
 5.	Layer Control: The program includes a layer control feature, allowing users to toggle visibility of the marker cluster and heatmap layers.
 6.	Saving the Map: The final map is saved as an HTML file, which can be opened in any web browser for viewing or shared with others.
-Usage
-This tool is intended for use by anyone interested in understanding the spatial distribution and concentration of firearm discharge incidents in Toronto. This could include law enforcement, city planners, researchers, or concerned citizens.
-Please note that the tool requires the following Python libraries: pandas, geopandas, json, shapely, folium, and folium.plugins.
 
 Usage:
 
@@ -22,7 +19,7 @@ Please note that the tool requires the following Python libraries: pandas, geopa
 
 Data Source:
 
-The data used by this tool comes from a CSV file. The exact data source or how to obtain it is not mentioned in the provided code, so you would need to provide your own CSV file or adapt the code to use a different data source. Ensure that your data file has all the necessary fields as expected by the script.
+The data used by this tool comes from the Toronto Public Open Data set, the complete data set can be found here: https://open.toronto.ca/dataset/shootings-firearm-discharges/
 
 Result:
 
