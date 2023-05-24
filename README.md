@@ -1,10 +1,9 @@
-# Firearm-Discharges-in-Toronto
-Pulling data from the City of Toronto's public archive I have created a heat-map in python that visualizes the different areas within city limits that a firearm has been discharged in. The map displays the location of each incident, along with the date, time, and number of fatalities.
-Firearm Discharges in Toronto: Visualization Tool
+# Firearm-Discharges-in-Toronto: Visualization Tool
 
 This Python program provides an interactive visualization tool for exploring firearm discharges incidents in the city of Toronto, Canada. The data is displayed on an interactive map and includes a heatmap layer to highlight areas with a higher concentration of discharges. Each discharge incident is marked with a location marker that includes detailed information about the incident.
 
-Overview
+Overview:
+
 This tool is designed to provide visual insights into firearm discharge incidents in Toronto. The main components of the program are:
 1.	Data loading and processing: The tool loads and processes data from a CSV file, which contains information about each firearm discharge incident, including the geographic coordinates and other details such as date, time, division, whether it resulted in death, number of injuries, and neighbourhood.
 2.	Interactive Map: The program creates an interactive map using the Folium library in Python. The map is centered around Toronto and allows users to zoom in and out and navigate to different parts of the city. 
